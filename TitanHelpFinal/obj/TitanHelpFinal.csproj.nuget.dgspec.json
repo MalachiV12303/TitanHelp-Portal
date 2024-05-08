@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\School\\Current\\CEN4031\\Final Project\\TitanHelpFinal\\TitanHelpFinal.csproj": {}
+    "d:\\School\\Current\\CEN4031\\Final Project\\TitanHelpFinal\\TitanHelpFinal.csproj": {}
   },
   "projects": {
-    "D:\\School\\Current\\CEN4031\\Final Project\\TitanHelpFinal\\TitanHelpFinal.csproj": {
+    "d:\\School\\Current\\CEN4031\\Final Project\\TitanHelpFinal\\TitanHelpFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School\\Current\\CEN4031\\Final Project\\TitanHelpFinal\\TitanHelpFinal.csproj",
+        "projectUniqueName": "d:\\School\\Current\\CEN4031\\Final Project\\TitanHelpFinal\\TitanHelpFinal.csproj",
         "projectName": "TitanHelpFinal",
-        "projectPath": "D:\\School\\Current\\CEN4031\\Final Project\\TitanHelpFinal\\TitanHelpFinal.csproj",
+        "projectPath": "d:\\School\\Current\\CEN4031\\Final Project\\TitanHelpFinal\\TitanHelpFinal.csproj",
         "packagesPath": "C:\\Users\\malac\\.nuget\\packages\\",
-        "outputPath": "D:\\School\\Current\\CEN4031\\Final Project\\TitanHelpFinal\\obj\\",
+        "outputPath": "d:\\School\\Current\\CEN4031\\Final Project\\TitanHelpFinal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\malac\\AppData\\Roaming\\NuGet\\NuGet.Config"
