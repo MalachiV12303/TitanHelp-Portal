@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TitanHelpFinal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01bbe57497c0f394fa7fa88d76c027b30765a551")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b1c372da5a2b04f63b653f3b1575bb767515a8c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TitanHelpFinal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TitanHelpFinal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

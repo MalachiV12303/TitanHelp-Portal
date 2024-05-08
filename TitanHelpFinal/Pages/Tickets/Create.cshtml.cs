@@ -35,7 +35,7 @@ namespace TitanHelpFinal.Pages.Tickets
                 return Page();
             }
 
-            _context.Ticket.Add(Ticket);
+            _context.Tickets.Add(Ticket);
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");

@@ -13,6 +13,12 @@ namespace TitanHelpFinal.Data
             : base(options)
         {
         }
+        public DbSet<Ticket> Tickets { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Ticket>().ToTable("Ticket");
+        }
 
         public DbSet<TitanHelpFinal.Models.Ticket> Ticket { get; set; } = default!;
     }

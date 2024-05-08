@@ -29,7 +29,7 @@ namespace TitanHelpFinal.Pages.Tickets
                 return NotFound();
             }
 
-            var ticket = await _context.Ticket.FirstOrDefaultAsync(m => m.ID == id);
+            var ticket = await _context.Tickets.FirstOrDefaultAsync(m => m.ID == id);
 
             if (ticket == null)
             {
@@ -49,11 +49,11 @@ namespace TitanHelpFinal.Pages.Tickets
                 return NotFound();
             }
 
-            var ticket = await _context.Ticket.FindAsync(id);
+            var ticket = await _context.Tickets.FindAsync(id);
             if (ticket != null)
             {
                 Ticket = ticket;
-                _context.Ticket.Remove(Ticket);
+                _context.Tickets.Remove(Ticket);
                 await _context.SaveChangesAsync();
             }
 

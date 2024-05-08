@@ -30,7 +30,7 @@ namespace TitanHelpFinal.Pages.Tickets
                 return NotFound();
             }
 
-            var ticket =  await _context.Ticket.FirstOrDefaultAsync(m => m.ID == id);
+            var ticket =  await _context.Tickets.FirstOrDefaultAsync(m => m.ID == id);
             if (ticket == null)
             {
                 return NotFound();
@@ -71,7 +71,7 @@ namespace TitanHelpFinal.Pages.Tickets
 
         private bool TicketExists(int id)
         {
-            return _context.Ticket.Any(e => e.ID == id);
+            return _context.Tickets.Any(e => e.ID == id);
         }
     }
 }

@@ -23,7 +23,7 @@ namespace TitanHelpFinal.Pages.Tickets
 
         public async Task OnGetAsync()
         {
-            Ticket = await _context.Ticket.ToListAsync();
+            Ticket = await _context.Tickets.ToListAsync();
         }
     }
 }

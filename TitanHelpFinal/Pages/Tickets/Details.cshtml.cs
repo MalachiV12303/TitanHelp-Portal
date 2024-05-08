@@ -28,7 +28,7 @@ namespace TitanHelpFinal.Pages.Tickets
                 return NotFound();
             }
 
-            var ticket = await _context.Ticket.FirstOrDefaultAsync(m => m.ID == id);
+            var ticket = await _context.Tickets.FirstOrDefaultAsync(m => m.ID == id);
             if (ticket == null)
             {
                 return NotFound();
