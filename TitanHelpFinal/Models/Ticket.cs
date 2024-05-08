@@ -2,9 +2,9 @@ namespace TitanHelpFinal.Models
 {
     public class Ticket
     {
-        public int TicketNum { get; set; }
-        public string Name { get; set; } = string.Empty;
-        public string ProblemDescription { get; set; } = string.Empty;
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string ProblemDescription { get; set; }
         public DateTime EnrollmentDate { get; set; }
 
     }
