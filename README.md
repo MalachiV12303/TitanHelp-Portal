@@ -11,3 +11,6 @@ The final layer, the Data Access layer, I implemented a simple SQLite database t
 program.cs EF Core, .EnsureCreated().  It was then initialized to have example Tickets using DbInitializer.cs:
 I installed and used DB Browser to view my sample database, with sample Tickets:
 ![sample database](https://github.com/MalachiV12303/Final-Project/assets/60449281/ba2c8d27-e593-4dc2-a1e5-fff5c020c73f)
+
+Implemented links to Tickets/Index and Tickets/Create on the navbar, updates boilerplate wordings, removed unnecessary buttons and removed "fake" tickets.
+I removed these tickets to ensure the database will not overwrite itself back to the DbIniitializer database each time the project is built.
