@@ -5,7 +5,7 @@ namespace TitanHelpFinal.Models
         public int ID { get; set; }
         public string Name { get; set; }
         public string ProblemDescription { get; set; }
-        public DateTime EnrollmentDate { get; set; }
+        public DateTime SubmittedDate { get; set; }
 
     }
 }
