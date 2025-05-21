@@ -1,4 +1,6 @@
-# Final Project for Advanced Program Development Frameworks (CEN4031)
+# Final Project for Advanced Program Development Frameworks (CEN4031) 2024  
+This course will provide the student with the skills to apply the Software Development Life Cycle (SDLC) to developing a business programming application. The student will implement advanced programming techniques using appropriate algorithms, programming concepts and tools. The course also provides the student with the necessary computing theories to produce software applications from design documents.
+
 ## Technologies Used:
 - ASP.Net Razor with EF Core
 - C#
