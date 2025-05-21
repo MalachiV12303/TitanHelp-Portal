@@ -1,6 +1,6 @@
-Final Project for CEN4031
+## Final Project for CEN4031
 
-How this was developed:
+How this was developed:  
 First, I started by creating a sample Razor application, as this will be used for my Presentation Layer
 
 ![starterrazorapp](https://github.com/MalachiV12303/Final-Project/assets/60449281/0a1d50a0-b895-4514-9a5d-af90ede65a1f)
